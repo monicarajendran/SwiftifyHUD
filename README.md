@@ -22,7 +22,7 @@ pod 'SwiftifyHUD'
 
 ## Author
 
-monicarajendran, monica.rajendran@thoughtworks.com
+monicarajendran, monicarajendran96@gmail.com
 
 ## License
 
