@@ -18,7 +18,7 @@ public enum HUDType {
     case text(title: String)
 }
 
-public class HUD {
+public class SwiftifyHUD {
     
     //Views
     private var mainContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
@@ -145,10 +145,10 @@ public class HUD {
         activityIndicatorView.hidesWhenStopped = true
         if #available(iOS 13.0, *) {
             activityIndicatorView.color = UIColor.label
-            activityIndicatorView.style = .medium
+            activityIndicatorView.activityIndicatorViewStyle = .medium
         } else {
             activityIndicatorView.color = textColor
-            activityIndicatorView.style = .gray
+            activityIndicatorView.activityIndicatorViewStyle = .gray
         }
         
         activityIndicatorView.frame = CGRect(x: 0, y: 10, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)

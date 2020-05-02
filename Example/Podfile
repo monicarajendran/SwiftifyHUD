@@ -5,7 +5,5 @@ target 'SwiftifyHUD_Example' do
 
   target 'SwiftifyHUD_Tests' do
     inherit! :search_paths
-
-    
   end
 end

@@ -13,10 +13,10 @@
 		35DE28644E93B42D574038A531699930 /* SwiftifyHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEFC4EEF7332EE366A2ABE36F37B57 /* SwiftifyHUD-dummy.m */; };
 		4E40910F1B7B5A4AC289E7A1D2149338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5231674E6B2E610CA0F7782BAF6F5245 /* Pods-SwiftifyHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF159A2D5AC15B56F58D0B1A457205C9 /* Pods-SwiftifyHUD_Example-dummy.m */; };
-		8B5DFAFF5644DD017E4FA0BACD1E4FC9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A6E84E96B517C8738C93A7A12DF7D9 /* ReplaceMe.swift */; };
 		A2112B3A1589B2C39F9B6CD97AC39A0A /* Pods-SwiftifyHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65738C069792E3ACADE59EF8BA84402 /* Pods-SwiftifyHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59112D7F4F4033EC48CF9EEA5C81770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D4516626272FFA030F2DD8AE274090C6 /* Pods-SwiftifyHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98078F207990A1929257F70C3A4BEC /* Pods-SwiftifyHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDABE864245DBF85004E6240 /* SwiftifyHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,29 +43,29 @@
 		3CC126544987A4B9170A58E028775CD6 /* Pods-SwiftifyHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FBCAEE5707D64370BBB0409BB5C6046 /* SwiftifyHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftifyHUD.xcconfig; sourceTree = "<group>"; };
 		3FD57140BFD465A32A9101ABDC0562C5 /* SwiftifyHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftifyHUD-Info.plist"; sourceTree = "<group>"; };
-		40FC345BA8E461207D0235B19D3A38E4 /* SwiftifyHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftifyHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40FC345BA8E461207D0235B19D3A38E4 /* SwiftifyHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftifyHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		416AB16B2C83F2F94299598928C6DAE3 /* Pods-SwiftifyHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftifyHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44E67C2E07E6F136FDD19E5E4CF7943B /* Pods_SwiftifyHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftifyHUD_Tests.framework; path = "Pods-SwiftifyHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB6E9D5B2AF7F4A98225C068B7CCCA6 /* SwiftifyHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftifyHUD.framework; path = SwiftifyHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A35C8A446EAF6C9189291C4EFEC23C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44E67C2E07E6F136FDD19E5E4CF7943B /* Pods_SwiftifyHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftifyHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB6E9D5B2AF7F4A98225C068B7CCCA6 /* SwiftifyHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftifyHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A35C8A446EAF6C9189291C4EFEC23C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5FDEFC4EEF7332EE366A2ABE36F37B57 /* SwiftifyHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftifyHUD-dummy.m"; sourceTree = "<group>"; };
 		853D55FB85300A6067C58674FEC695A4 /* Pods-SwiftifyHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftifyHUD_Example.modulemap"; sourceTree = "<group>"; };
-		8AF601BF298C2D40DA83C528C4CE743E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8AF601BF298C2D40DA83C528C4CE743E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F8916F3278C964EF113070EADCDBD7D /* Pods-SwiftifyHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		94AF2648DD0D9D99480CC1AC53BF39DB /* Pods-SwiftifyHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9524660A53CC2250F4A6FE2431668853 /* SwiftifyHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftifyHUD.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E98078F207990A1929257F70C3A4BEC /* Pods-SwiftifyHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftifyHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A4A6E84E96B517C8738C93A7A12DF7D9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftifyHUD/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		AA27995927EAD699A595107C37EC23F3 /* Pods-SwiftifyHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD2FA220677DE89B93A991B7F70D1211 /* SwiftifyHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-prefix.pch"; sourceTree = "<group>"; };
 		AF159A2D5AC15B56F58D0B1A457205C9 /* Pods-SwiftifyHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftifyHUD_Example-dummy.m"; sourceTree = "<group>"; };
 		B18A2A89042D24B3AF327755796FC7D4 /* Pods-SwiftifyHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Example-Info.plist"; sourceTree = "<group>"; };
 		B2A5EAE644BF92A3DD57F9A3AF0AEB1C /* Pods-SwiftifyHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftifyHUD_Tests.modulemap"; sourceTree = "<group>"; };
 		B747BB0F82C6C448C87875594DF6A2FF /* Pods-SwiftifyHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C48A23B1BFC317F55087C18B5D5522D4 /* Pods_SwiftifyHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftifyHUD_Example.framework; path = "Pods-SwiftifyHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48A23B1BFC317F55087C18B5D5522D4 /* Pods_SwiftifyHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftifyHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65738C069792E3ACADE59EF8BA84402 /* Pods-SwiftifyHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftifyHUD_Example-umbrella.h"; sourceTree = "<group>"; };
 		D93A5DCB04A25CEC8611A0B9C92DD4B5 /* Pods-SwiftifyHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Tests-Info.plist"; sourceTree = "<group>"; };
+		DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftifyHUD.swift; path = SwiftifyHUD/Classes/SwiftifyHUD.swift; sourceTree = "<group>"; };
 		E8CBD49469F7C08327C39BADA9744CB0 /* Pods-SwiftifyHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8D8AAEB6A1FA59E0B59B96A595D11AF /* SwiftifyHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-umbrella.h"; sourceTree = "<group>"; };
 		FD82BD8652F9999B838DC01CE2128134 /* Pods-SwiftifyHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftifyHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		0611D55465973FBD48DBA35D2F09734C /* SwiftifyHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A4A6E84E96B517C8738C93A7A12DF7D9 /* ReplaceMe.swift */,
+				DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */,
 				CFB2E38A9ED144B65274A74BE94CB630 /* Pod */,
 				82F0B4E61A47666AC39394C598F405A4 /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C8B9254357EE16ECE21606997AE26A89 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5DFAFF5644DD017E4FA0BACD1E4FC9 /* ReplaceMe.swift in Sources */,
+				DDABE864245DBF85004E6240 /* SwiftifyHUD.swift in Sources */,
 				35DE28644E93B42D574038A531699930 /* SwiftifyHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +414,7 @@
 			baseConfigurationReference = 8F8916F3278C964EF113070EADCDBD7D /* Pods-SwiftifyHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,7 +426,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
@@ -431,6 +437,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -474,6 +482,7 @@
 			baseConfigurationReference = 94AF2648DD0D9D99480CC1AC53BF39DB /* Pods-SwiftifyHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
@@ -496,6 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -551,13 +561,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -614,7 +623,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
