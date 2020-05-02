@@ -1,0 +1,6 @@
+framework module Pods_SwiftifyHUD_Example {
+  umbrella header "Pods-SwiftifyHUD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

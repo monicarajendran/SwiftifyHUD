@@ -1,0 +1,16 @@
+PODS:
+  - SwiftifyHUD (0.1.0)
+
+DEPENDENCIES:
+  - SwiftifyHUD (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftifyHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftifyHUD: 2cccf8f03ff9752d152ceaa12d2fe2bee2e80418
+
+PODFILE CHECKSUM: aa3ee09643bcd71350965473603e3cd4de16bfe1
+
+COCOAPODS: 1.8.4
