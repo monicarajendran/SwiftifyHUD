@@ -145,10 +145,10 @@ public class SwiftifyHUD {
         activityIndicatorView.hidesWhenStopped = true
         if #available(iOS 13.0, *) {
             activityIndicatorView.color = UIColor.label
-            activityIndicatorView.activityIndicatorViewStyle = .medium
+            activityIndicatorView.style = .medium
         } else {
             activityIndicatorView.color = textColor
-            activityIndicatorView.activityIndicatorViewStyle = .gray
+            activityIndicatorView.style = .gray
         }
         
         activityIndicatorView.frame = CGRect(x: 0, y: 10, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)
