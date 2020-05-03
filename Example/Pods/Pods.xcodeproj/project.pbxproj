@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		135EF1638528FCCD8EE641A89C0CC10F /* Pods-SwiftifyHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32692AB1E125DCA22DF38FA908D7DAB1 /* Pods-SwiftifyHUD_Tests-dummy.m */; };
-		1A09DBF7DCFF9447C2B41D8920A0E94A /* SwiftifyHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D8AAEB6A1FA59E0B59B96A595D11AF /* SwiftifyHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A09DBF7DCFF9447C2B41D8920A0E94A /* SwiftifyHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAEA289E338FA10ABF436613383B46B /* SwiftifyHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30EDFC37B8881230990C218CE44C24FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		35DE28644E93B42D574038A531699930 /* SwiftifyHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEFC4EEF7332EE366A2ABE36F37B57 /* SwiftifyHUD-dummy.m */; };
 		4E40910F1B7B5A4AC289E7A1D2149338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5231674E6B2E610CA0F7782BAF6F5245 /* Pods-SwiftifyHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF159A2D5AC15B56F58D0B1A457205C9 /* Pods-SwiftifyHUD_Example-dummy.m */; };
+		88CD3ECA6CDC04CC3A1AA1C91E701849 /* SwiftifyHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48077D7DF28BC23C3D15853ABFDC55BE /* SwiftifyHUD.swift */; };
 		A2112B3A1589B2C39F9B6CD97AC39A0A /* Pods-SwiftifyHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65738C069792E3ACADE59EF8BA84402 /* Pods-SwiftifyHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59112D7F4F4033EC48CF9EEA5C81770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D4516626272FFA030F2DD8AE274090C6 /* Pods-SwiftifyHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98078F207990A1929257F70C3A4BEC /* Pods-SwiftifyHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDABE864245DBF85004E6240 /* SwiftifyHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */; };
+		E5E4AA6691108040707C938D46FC73FB /* SwiftifyHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D345EF1D26A554A926A1E0BB923C88 /* SwiftifyHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1032B0C7E1C1EE606AC6BF22D610FB56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1BC706D01FE7D092F46453240FC536FA /* Pods-SwiftifyHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftifyHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32692AB1E125DCA22DF38FA908D7DAB1 /* Pods-SwiftifyHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftifyHUD_Tests-dummy.m"; sourceTree = "<group>"; };
 		3CC126544987A4B9170A58E028775CD6 /* Pods-SwiftifyHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FBCAEE5707D64370BBB0409BB5C6046 /* SwiftifyHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftifyHUD.xcconfig; sourceTree = "<group>"; };
-		3FD57140BFD465A32A9101ABDC0562C5 /* SwiftifyHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftifyHUD-Info.plist"; sourceTree = "<group>"; };
-		40FC345BA8E461207D0235B19D3A38E4 /* SwiftifyHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftifyHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		416AB16B2C83F2F94299598928C6DAE3 /* Pods-SwiftifyHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftifyHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44E67C2E07E6F136FDD19E5E4CF7943B /* Pods_SwiftifyHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftifyHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB6E9D5B2AF7F4A98225C068B7CCCA6 /* SwiftifyHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftifyHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A35C8A446EAF6C9189291C4EFEC23C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5FDEFC4EEF7332EE366A2ABE36F37B57 /* SwiftifyHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftifyHUD-dummy.m"; sourceTree = "<group>"; };
+		44E67C2E07E6F136FDD19E5E4CF7943B /* Pods_SwiftifyHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftifyHUD_Tests.framework; path = "Pods-SwiftifyHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48077D7DF28BC23C3D15853ABFDC55BE /* SwiftifyHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftifyHUD.swift; path = SwiftifyHUD/Classes/SwiftifyHUD.swift; sourceTree = "<group>"; };
+		4CB6E9D5B2AF7F4A98225C068B7CCCA6 /* SwiftifyHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftifyHUD.framework; path = SwiftifyHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8165D1CDFE034C687D4A37F745DEBE82 /* SwiftifyHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-prefix.pch"; sourceTree = "<group>"; };
 		853D55FB85300A6067C58674FEC695A4 /* Pods-SwiftifyHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftifyHUD_Example.modulemap"; sourceTree = "<group>"; };
-		8AF601BF298C2D40DA83C528C4CE743E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F8916F3278C964EF113070EADCDBD7D /* Pods-SwiftifyHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		94AF2648DD0D9D99480CC1AC53BF39DB /* Pods-SwiftifyHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9524660A53CC2250F4A6FE2431668853 /* SwiftifyHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftifyHUD.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ADCD9C05268DA3FB73312F6FEFB1230 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E98078F207990A1929257F70C3A4BEC /* Pods-SwiftifyHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftifyHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA27995927EAD699A595107C37EC23F3 /* Pods-SwiftifyHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD2FA220677DE89B93A991B7F70D1211 /* SwiftifyHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-prefix.pch"; sourceTree = "<group>"; };
+		AE88997EBB04CC64B2A84B2D1E76DCF9 /* SwiftifyHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftifyHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF159A2D5AC15B56F58D0B1A457205C9 /* Pods-SwiftifyHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftifyHUD_Example-dummy.m"; sourceTree = "<group>"; };
 		B18A2A89042D24B3AF327755796FC7D4 /* Pods-SwiftifyHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Example-Info.plist"; sourceTree = "<group>"; };
 		B2A5EAE644BF92A3DD57F9A3AF0AEB1C /* Pods-SwiftifyHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftifyHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		B4A8BE2644858763CB8204F9A3FD8567 /* SwiftifyHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftifyHUD.xcconfig; sourceTree = "<group>"; };
 		B747BB0F82C6C448C87875594DF6A2FF /* Pods-SwiftifyHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C48A23B1BFC317F55087C18B5D5522D4 /* Pods_SwiftifyHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftifyHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4C07E9A0F58E2428931F06DF452A4E /* SwiftifyHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftifyHUD.modulemap; sourceTree = "<group>"; };
+		C48A23B1BFC317F55087C18B5D5522D4 /* Pods_SwiftifyHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftifyHUD_Example.framework; path = "Pods-SwiftifyHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65738C069792E3ACADE59EF8BA84402 /* Pods-SwiftifyHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftifyHUD_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB87EC128F8031A4F3004E0B49EBD8CC /* SwiftifyHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftifyHUD-Info.plist"; sourceTree = "<group>"; };
 		D93A5DCB04A25CEC8611A0B9C92DD4B5 /* Pods-SwiftifyHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftifyHUD_Tests-Info.plist"; sourceTree = "<group>"; };
-		DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftifyHUD.swift; path = SwiftifyHUD/Classes/SwiftifyHUD.swift; sourceTree = "<group>"; };
 		E8CBD49469F7C08327C39BADA9744CB0 /* Pods-SwiftifyHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftifyHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E8D8AAEB6A1FA59E0B59B96A595D11AF /* SwiftifyHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-umbrella.h"; sourceTree = "<group>"; };
+		F4D345EF1D26A554A926A1E0BB923C88 /* SwiftifyHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftifyHUD-dummy.m"; sourceTree = "<group>"; };
+		FAAEA289E338FA10ABF436613383B46B /* SwiftifyHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftifyHUD-umbrella.h"; sourceTree = "<group>"; };
 		FD82BD8652F9999B838DC01CE2128134 /* Pods-SwiftifyHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftifyHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,17 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0611D55465973FBD48DBA35D2F09734C /* SwiftifyHUD */ = {
-			isa = PBXGroup;
-			children = (
-				DDABE861245DBCC0004E6240 /* SwiftifyHUD.swift */,
-				CFB2E38A9ED144B65274A74BE94CB630 /* Pod */,
-				82F0B4E61A47666AC39394C598F405A4 /* Support Files */,
-			);
-			name = SwiftifyHUD;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3CF6B181868BB7BECDDF59E5AA1623DE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,26 +118,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		736E9D19249CE292EC60F5A457B09268 /* SwiftifyHUD */ = {
+			isa = PBXGroup;
+			children = (
+				48077D7DF28BC23C3D15853ABFDC55BE /* SwiftifyHUD.swift */,
+				F3DAA7873A71D7987E5D351E4C2072B0 /* Pod */,
+				F60EF83DC586E4D5FF2F9D4ECE4277A0 /* Support Files */,
+			);
+			name = SwiftifyHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		775E47A716DE0424DCC4C41ADCEB04F1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0611D55465973FBD48DBA35D2F09734C /* SwiftifyHUD */,
+				736E9D19249CE292EC60F5A457B09268 /* SwiftifyHUD */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		82F0B4E61A47666AC39394C598F405A4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9524660A53CC2250F4A6FE2431668853 /* SwiftifyHUD.modulemap */,
-				3FBCAEE5707D64370BBB0409BB5C6046 /* SwiftifyHUD.xcconfig */,
-				5FDEFC4EEF7332EE366A2ABE36F37B57 /* SwiftifyHUD-dummy.m */,
-				3FD57140BFD465A32A9101ABDC0562C5 /* SwiftifyHUD-Info.plist */,
-				AD2FA220677DE89B93A991B7F70D1211 /* SwiftifyHUD-prefix.pch */,
-				E8D8AAEB6A1FA59E0B59B96A595D11AF /* SwiftifyHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftifyHUD";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -168,16 +154,6 @@
 				5D92133949122D9459FD9D857E8950E3 /* Products */,
 				3CF6B181868BB7BECDDF59E5AA1623DE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFB2E38A9ED144B65274A74BE94CB630 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5A35C8A446EAF6C9189291C4EFEC23C9 /* LICENSE */,
-				8AF601BF298C2D40DA83C528C4CE743E /* README.md */,
-				40FC345BA8E461207D0235B19D3A38E4 /* SwiftifyHUD.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D0BBC25C5003A1A77A41A5240B24FBD3 /* Pods-SwiftifyHUD_Example */ = {
@@ -219,6 +195,30 @@
 			);
 			name = "Pods-SwiftifyHUD_Tests";
 			path = "Target Support Files/Pods-SwiftifyHUD_Tests";
+			sourceTree = "<group>";
+		};
+		F3DAA7873A71D7987E5D351E4C2072B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9ADCD9C05268DA3FB73312F6FEFB1230 /* LICENSE */,
+				1032B0C7E1C1EE606AC6BF22D610FB56 /* README.md */,
+				AE88997EBB04CC64B2A84B2D1E76DCF9 /* SwiftifyHUD.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F60EF83DC586E4D5FF2F9D4ECE4277A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C07E9A0F58E2428931F06DF452A4E /* SwiftifyHUD.modulemap */,
+				B4A8BE2644858763CB8204F9A3FD8567 /* SwiftifyHUD.xcconfig */,
+				F4D345EF1D26A554A926A1E0BB923C88 /* SwiftifyHUD-dummy.m */,
+				CB87EC128F8031A4F3004E0B49EBD8CC /* SwiftifyHUD-Info.plist */,
+				8165D1CDFE034C687D4A37F745DEBE82 /* SwiftifyHUD-prefix.pch */,
+				FAAEA289E338FA10ABF436613383B46B /* SwiftifyHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftifyHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +294,7 @@
 			buildConfigurationList = 5CA83B6578A04C20A56C7052F265E8E9 /* Build configuration list for PBXNativeTarget "SwiftifyHUD" */;
 			buildPhases = (
 				DC5AB3B7863CC00F0F6CF5EB188773B8 /* Headers */,
-				CDDD3850049C178FB1CA5BE2FE6E3BBE /* Sources */,
+				590584DC8D2E0099809184C279C09B5A /* Sources */,
 				D1396315C271839D31EF989F6861D855 /* Frameworks */,
 				08D79E6AE57F9A08850D07B31255D634 /* Resources */,
 			);
@@ -315,11 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					C8B9254357EE16ECE21606997AE26A89 = {
-						LastSwiftMigration = 1140;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -374,20 +369,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		590584DC8D2E0099809184C279C09B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E4AA6691108040707C938D46FC73FB /* SwiftifyHUD-dummy.m in Sources */,
+				88CD3ECA6CDC04CC3A1AA1C91E701849 /* SwiftifyHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A5E3B90F34DFBB3A48863999CF2DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				135EF1638528FCCD8EE641A89C0CC10F /* Pods-SwiftifyHUD_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDDD3850049C178FB1CA5BE2FE6E3BBE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDABE864245DBF85004E6240 /* SwiftifyHUD.swift in Sources */,
-				35DE28644E93B42D574038A531699930 /* SwiftifyHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,170 +404,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F29C875DA4381BB6719DA4430BF80D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8916F3278C964EF113070EADCDBD7D /* Pods-SwiftifyHUD_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		49EFB2CB32B3122B7FA406438149D7C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FBCAEE5707D64370BBB0409BB5C6046 /* SwiftifyHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftifyHUD/SwiftifyHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD.modulemap";
-				PRODUCT_MODULE_NAME = SwiftifyHUD;
-				PRODUCT_NAME = SwiftifyHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		621C130CFCC4C7CEDE5B8C973F27A6B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94AF2648DD0D9D99480CC1AC53BF39DB /* Pods-SwiftifyHUD_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -636,10 +468,11 @@
 			};
 			name = Debug;
 		};
-		C4713F27915E53825FA25CC3A762D6CD /* Debug */ = {
+		36A6E6F4C508C8823E6990F773591A79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FBCAEE5707D64370BBB0409BB5C6046 /* SwiftifyHUD.xcconfig */;
+			baseConfigurationReference = B4A8BE2644858763CB8204F9A3FD8567 /* SwiftifyHUD.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -652,7 +485,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftifyHUD/SwiftifyHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD.modulemap";
 				PRODUCT_MODULE_NAME = SwiftifyHUD;
@@ -667,11 +500,46 @@
 			};
 			name = Debug;
 		};
-		CB63E82D709D875C0AA4DA4258F3AD9F /* Release */ = {
+		4021F010F7E37F8254512AE65E60FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8916F3278C964EF113070EADCDBD7D /* Pods-SwiftifyHUD_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87CDB9E5F70A01A78FF07C6615AC608F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8CBD49469F7C08327C39BADA9744CB0 /* Pods-SwiftifyHUD_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,7 +551,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Tests/Pods-SwiftifyHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Tests/Pods-SwiftifyHUD_Tests.modulemap";
@@ -701,11 +569,140 @@
 			};
 			name = Release;
 		};
-		D12ED8C33BA3CD5E8C8FFBF124177029 /* Debug */ = {
+		9FD3966C1D9267D1CBB3A599D24109D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AF2648DD0D9D99480CC1AC53BF39DB /* Pods-SwiftifyHUD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Example/Pods-SwiftifyHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2DD8FDB234FD30D0D219CC68A046AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A8BE2644858763CB8204F9A3FD8567 /* SwiftifyHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftifyHUD/SwiftifyHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftifyHUD/SwiftifyHUD.modulemap";
+				PRODUCT_MODULE_NAME = SwiftifyHUD;
+				PRODUCT_NAME = SwiftifyHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB2E755E29D0954057AAF4F77E51BF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B747BB0F82C6C448C87875594DF6A2FF /* Pods-SwiftifyHUD_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,7 +714,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftifyHUD_Tests/Pods-SwiftifyHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftifyHUD_Tests/Pods-SwiftifyHUD_Tests.modulemap";
@@ -740,8 +737,8 @@
 		1498EFF84F97AABFBB54E27AF719C317 /* Build configuration list for PBXNativeTarget "Pods-SwiftifyHUD_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F29C875DA4381BB6719DA4430BF80D0 /* Debug */,
-				621C130CFCC4C7CEDE5B8C973F27A6B5 /* Release */,
+				4021F010F7E37F8254512AE65E60FBF6 /* Debug */,
+				9FD3966C1D9267D1CBB3A599D24109D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,8 +746,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +755,8 @@
 		5CA83B6578A04C20A56C7052F265E8E9 /* Build configuration list for PBXNativeTarget "SwiftifyHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4713F27915E53825FA25CC3A762D6CD /* Debug */,
-				49EFB2CB32B3122B7FA406438149D7C8 /* Release */,
+				36A6E6F4C508C8823E6990F773591A79 /* Debug */,
+				B2DD8FDB234FD30D0D219CC68A046AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -767,8 +764,8 @@
 		77170DA9E98681AA6E9FE858F03E7F60 /* Build configuration list for PBXNativeTarget "Pods-SwiftifyHUD_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D12ED8C33BA3CD5E8C8FFBF124177029 /* Debug */,
-				CB63E82D709D875C0AA4DA4258F3AD9F /* Release */,
+				DB2E755E29D0954057AAF4F77E51BF35 /* Debug */,
+				87CDB9E5F70A01A78FF07C6615AC608F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -42,10 +42,24 @@ public class SwiftifyHUD {
         }
     }
     
+    open var textFont: UIFont {
+        get {
+            return textLabel.font
+        } set {
+            textLabel.font = newValue
+        }
+    }
+    
     public init() {
+        defaultConfig()
         configureMainContainer()
         configureSubContainer()
         configureTextLabel()
+    }
+    
+    func defaultConfig() {
+        textColor = .white
+        activityIndicator.style = .whiteLarge
     }
     
     func configureMainContainer() {
@@ -67,17 +81,16 @@ public class SwiftifyHUD {
         } else {
             textLabel.textColor = textColor //
         }
-        textLabel.font = UIFont.systemFont(ofSize: 16)
+        textLabel.font = textFont
     }
     
     var subContainerWidth: CGFloat {
-        var width: CGFloat = textLabel.intrinsicContentSize.width
+        let width: CGFloat = textLabel.intrinsicContentSize.width + 30
         if width > SCREEN_WIDTH {
-            width = SCREEN_WIDTH/2 + 150
+            return SCREEN_WIDTH/2 + 150
         } else {
-            width += 30
+            return width
         }
-        return width
     }
     
     func drawTextLabel(_ title: String, showLoader: Bool) {
@@ -90,7 +103,7 @@ public class SwiftifyHUD {
             subContainer.frame = CGRect(x: 10, y: 0, width: subContainerWidth, height: SCREEN_WIDTH / 4.0)
             textLabel.frame = CGRect(x: 0, y: 10 + activityIndicatorView.bounds.height, width: subContainer.bounds.width , height: height - 5.0)
         } else {
-            subContainer.frame = CGRect(x: 10, y: 0, width: subContainerWidth, height: SCREEN_WIDTH / 4.0 - 10)
+            subContainer.frame = CGRect(x: 10, y: 0, width: subContainerWidth, height: SCREEN_WIDTH / 4.0 - 30)
             textLabel.frame = CGRect(x: 0, y: 10, width: subContainer.bounds.width, height: subContainer.bounds.height - 20)
         }
         
@@ -108,7 +121,7 @@ public class SwiftifyHUD {
         })
     }
     
-    public func show(_ type: HUDType, hideAfter: TimeInterval = 0.0) {
+    public func show(_ type: HUDType, hideAfter: TimeInterval = .infinity) {
         
         mainContainer.addSubview(subContainer)
         
@@ -126,6 +139,10 @@ public class SwiftifyHUD {
             print("handle default")
         }
         addMainContainerInWindow()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + hideAfter) {
+            self.hide()
+        }
     }
     
     public func hide() {
@@ -148,10 +165,10 @@ public class SwiftifyHUD {
             activityIndicatorView.style = .medium
         } else {
             activityIndicatorView.color = textColor
-            activityIndicatorView.style = .gray
+            activityIndicatorView.style = .white
         }
         
-        activityIndicatorView.frame = CGRect(x: 0, y: 10, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)
+        activityIndicatorView.frame = CGRect(x: 0, y: 15, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)
         activityIndicatorView.center = CGPoint(x: activityIndicatorView.center.x, y: activityIndicatorView.center.y)
         return activityIndicatorView
     }
@@ -177,9 +194,9 @@ extension UIView {
         let blurEffect: UIBlurEffect
         
         if #available(iOS 13.0, *) {
-            blurEffect = UIBlurEffect(style: .systemUltraThinMaterial)
+            blurEffect = UIBlurEffect(style: .systemUltraThinMaterialDark)
         } else {
-            blurEffect = UIBlurEffect(style: .light)
+            blurEffect = UIBlurEffect(style: .dark)
         }
         let visualEffectView = UIVisualEffectView(effect: blurEffect)
         visualEffectView.frame = self.bounds
