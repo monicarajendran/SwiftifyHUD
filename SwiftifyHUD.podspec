@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftifyHUD'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of SwiftifyHUD.'
   s.description      = <<-DESC
 'A simple hud writtern in swift'
