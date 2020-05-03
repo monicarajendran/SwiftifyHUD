@@ -49,7 +49,7 @@ public class SwiftifyHUD {
     }
     
     func configureMainContainer() {
-        mainContainer.backgroundColor = UIColor(white: 0.0, alpha: 0.2)
+        mainContainer.backgroundColor = UIColor(white: 0.0, alpha: 0.05)
     }
     
     func configureSubContainer() {

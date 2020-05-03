@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftifyHUD'
   s.version          = '1.0'
-  s.summary          = 'A short description of SwiftifyHUD.'
+  s.summary          = 'A simple hud writtern in swift'
   s.description      = <<-DESC
-'A simple hud writtern in swift'
+'A simple hud writtern in swift.'
 DESC
 
   s.homepage         = 'https://github.com/monicarajendran/SwiftifyHUD'
