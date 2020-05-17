@@ -175,13 +175,12 @@ public class SwiftifyHUD {
 }
 
 private func getKeyWindow() -> UIWindow? {
-    if #available(iOS 13.0, *) {
-        let window = UIApplication.shared.connectedScenes
+    if #available(iOS 13.0, *), let window = UIApplication.shared.connectedScenes
             .filter({$0.activationState == .foregroundActive})
             .map({$0 as? UIWindowScene})
             .compactMap({$0})
             .first?.windows
-            .filter({$0.isKeyWindow}).first
+        .filter({$0.isKeyWindow}).first {
         return window
     } else {
         let app = UIApplication.shared.delegate
@@ -194,7 +193,7 @@ extension UIView {
         let blurEffect: UIBlurEffect
         
         if #available(iOS 13.0, *) {
-            blurEffect = UIBlurEffect(style: .systemUltraThinMaterialDark)
+            blurEffect = UIBlurEffect(style: .systemMaterialDark)
         } else {
             blurEffect = UIBlurEffect(style: .dark)
         }

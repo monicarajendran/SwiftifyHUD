@@ -11,24 +11,18 @@ import SwiftifyHUD
 
 class ViewController: UIViewController {
 
+    let hud = SwiftifyHUD()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
     @IBAction func showTextWithLoaderAction(_ sender: Any) {
-        let hud = SwiftifyHUD()
         hud.show(.loaderWith(title: "Loading long texttttttttttttttttttttttttttttttttttttttttttt!!!!!!!!"))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            hud.hide()
-        }
     }
 
     @IBAction func showTextAction(_ sender: Any) {
-        let hud = SwiftifyHUD()
         hud.show(.text(title: "Loading..."))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            hud.hide()
-        }
     }
 }
