@@ -66,7 +66,7 @@ public class SwiftifyHUD {
     }
     
     func defaultConfig() {
-        textColor = .white
+        textLabel.textColor = .white
         activityIndicator.style = .whiteLarge
     }
     
@@ -77,18 +77,14 @@ public class SwiftifyHUD {
     func configureSubContainer() {
         subContainer.layer.cornerRadius = 5.0
         subContainer.layer.masksToBounds = true
-        subContainer.backgroundColor = background //
+        subContainer.backgroundColor = background
         subContainer.addBlurEffect()
     }
     
     func configureTextLabel() {
         textLabel.numberOfLines = 2
         textLabel.textAlignment = .center
-        if #available(iOS 13.0, *) {
-            textLabel.textColor = UIColor.label
-        } else {
-            textLabel.textColor = textColor //
-        }
+        textLabel.textColor = textColor
         textLabel.font = textFont
     }
     
@@ -128,12 +124,14 @@ public class SwiftifyHUD {
     }
     
     public func show(_ type: HUDType, hideAfter: TimeInterval = .infinity) {
+        self.mainView.isUserInteractionEnabled = false
         
         mainContainer.addSubview(subContainer)
         
         switch type {
             
         case .text(let title):
+            self.activityIndicatorView.removeFromSuperview()
             drawTextLabel(title, showLoader: false)
             
         case .loaderWith(let title):
@@ -152,6 +150,8 @@ public class SwiftifyHUD {
     }
     
     public func hide() {
+        self.mainView.isUserInteractionEnabled = true
+        
         UIView.animate(withDuration: 0.5, animations: {
             self.mainContainer.alpha = 0.0
         }) { finished in
@@ -167,8 +167,8 @@ public class SwiftifyHUD {
     private var activityIndicator: UIActivityIndicatorView {
         activityIndicatorView.hidesWhenStopped = true
         if #available(iOS 13.0, *) {
-            activityIndicatorView.color = UIColor.label
-            activityIndicatorView.style = .medium
+            activityIndicatorView.color = textColor
+            activityIndicatorView.style = .whiteLarge
         } else {
             activityIndicatorView.color = textColor
             activityIndicatorView.style = .white
