@@ -10,7 +10,6 @@ import UIKit
 
 let SCREEN_WIDTH = UIScreen.main.bounds.size.width
 let SIZE_CONSTANT = 375.0
-let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 
 public enum HUDType {
     case loader
@@ -20,11 +19,11 @@ public enum HUDType {
 
 public class SwiftifyHUD {
     
-    var view: UIView
+    var mainView: UIView
     
     //Views
-    private var mainContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
-    private var subContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH / 3.0, height: SCREEN_WIDTH / 4.0))
+    private var mainContainer: UIView
+    private var subContainer: UIView
     private var activityIndicatorView = UIActivityIndicatorView()
     private var textLabel = UILabel()
     
@@ -53,7 +52,13 @@ public class SwiftifyHUD {
     }
     
     public init(view: UIView) {
-        self.view = view
+        self.mainView = view
+        self.mainContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: mainView.frame.height))
+        self.subContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH / 3.0, height: SCREEN_WIDTH / 4.0))
+        self.configViews()
+    }
+
+    func configViews() {
         defaultConfig()
         configureMainContainer()
         configureSubContainer()
@@ -110,16 +115,12 @@ public class SwiftifyHUD {
             textLabel.frame = CGRect(x: 0, y: 10, width: subContainer.bounds.width, height: subContainer.bounds.height - 20)
         }
         
-        subContainer.center = CGPoint(x: SCREEN_WIDTH / 2, y: SCREEN_HEIGHT / 2)
+        subContainer.center = CGPoint(x: SCREEN_WIDTH / 2, y: mainView.frame.height / 2)
         subContainer.addSubview(textLabel)
     }
     
-    func addMainContainerInWindow() {
-//        if let window = getKeyWindow() {
-//            window.addSubview(mainContainer)
-//        }
-        
-        self.view.addSubview(mainContainer)
+    func addMainContainerInMainView() {
+        self.mainView.addSubview(mainContainer)
         mainContainer.alpha = 0.0
         UIView.animate(withDuration: 0.5, animations: {
             self.mainContainer.alpha = 1.0
@@ -143,7 +144,7 @@ public class SwiftifyHUD {
         default:
             print("handle default")
         }
-        addMainContainerInWindow()
+        addMainContainerInMainView()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + hideAfter) {
             self.hide()
@@ -176,20 +177,6 @@ public class SwiftifyHUD {
         activityIndicatorView.frame = CGRect(x: 0, y: 15, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)
         activityIndicatorView.center = CGPoint(x: activityIndicatorView.center.x, y: activityIndicatorView.center.y)
         return activityIndicatorView
-    }
-}
-
-private func getKeyWindow() -> UIWindow? {
-    if #available(iOS 13.0, *), let window = UIApplication.shared.connectedScenes
-            .filter({$0.activationState == .foregroundActive})
-            .map({$0 as? UIWindowScene})
-            .compactMap({$0})
-            .first?.windows
-        .filter({$0.isKeyWindow}).first {
-        return window
-    } else {
-        let app = UIApplication.shared.delegate
-        return app?.window ?? nil
     }
 }
 
