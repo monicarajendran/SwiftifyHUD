@@ -20,6 +20,8 @@ public enum HUDType {
 
 public class SwiftifyHUD {
     
+    var view: UIView
+    
     //Views
     private var mainContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT))
     private var subContainer = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH / 3.0, height: SCREEN_WIDTH / 4.0))
@@ -50,7 +52,8 @@ public class SwiftifyHUD {
         }
     }
     
-    public init() {
+    public init(view: UIView) {
+        self.view = view
         defaultConfig()
         configureMainContainer()
         configureSubContainer()
@@ -112,9 +115,11 @@ public class SwiftifyHUD {
     }
     
     func addMainContainerInWindow() {
-        if let window = getKeyWindow() {
-            window.addSubview(mainContainer)
-        }
+//        if let window = getKeyWindow() {
+//            window.addSubview(mainContainer)
+//        }
+        
+        self.view.addSubview(mainContainer)
         mainContainer.alpha = 0.0
         UIView.animate(withDuration: 0.5, animations: {
             self.mainContainer.alpha = 1.0
