@@ -11,11 +11,11 @@ import SwiftifyHUD
 
 class ViewController: UIViewController {
 
-    let hud = SwiftifyHUD()
+    var hud: SwiftifyHUD!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hud = SwiftifyHUD(view: self.view)
     }
 
     @IBAction func showTextWithLoaderAction(_ sender: Any) {
