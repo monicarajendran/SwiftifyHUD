@@ -166,13 +166,8 @@ public class SwiftifyHUD {
     
     private var activityIndicator: UIActivityIndicatorView {
         activityIndicatorView.hidesWhenStopped = true
-        if #available(iOS 13.0, *) {
-            activityIndicatorView.color = textColor
-            activityIndicatorView.style = .whiteLarge
-        } else {
-            activityIndicatorView.color = textColor
-            activityIndicatorView.style = .white
-        }
+        activityIndicatorView.color = textColor
+        activityIndicatorView.style = .whiteLarge
         
         activityIndicatorView.frame = CGRect(x: 0, y: 15, width: subContainer.bounds.width, height: subContainer.bounds.height / 3.0)
         activityIndicatorView.center = CGPoint(x: activityIndicatorView.center.x, y: activityIndicatorView.center.y)
@@ -183,12 +178,7 @@ public class SwiftifyHUD {
 extension UIView {
     func addBlurEffect() {
         let blurEffect: UIBlurEffect
-        
-        if #available(iOS 13.0, *) {
-            blurEffect = UIBlurEffect(style: .systemMaterialDark)
-        } else {
-            blurEffect = UIBlurEffect(style: .dark)
-        }
+        blurEffect = UIBlurEffect(style: .dark)
         let visualEffectView = UIVisualEffectView(effect: blurEffect)
         visualEffectView.frame = self.bounds
         visualEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
